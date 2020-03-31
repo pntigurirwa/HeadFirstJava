@@ -23,7 +23,7 @@ public class student{
     }
 
     // Get Student's name 
-    public void getName ()
+    public String getName ()
     {
        return name;
     }
@@ -39,7 +39,7 @@ public class student{
     }
 
     //etrieve student's average 
-    public void setAverage ()
+    public double setAverage ()
     {
         return average;
     }
