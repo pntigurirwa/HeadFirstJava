@@ -7,7 +7,7 @@ public class student{
     // Constructor to initialize instance variable
     public student(String name, double average)
     {
-        this.name;
+        this.name= name;
 
         //validate that average is > 0.0 and <= 100.0; otherwise 
         //keep instance variable average'default value(0.0)
@@ -19,11 +19,27 @@ public class student{
     // Set Student's name 
     public void setName (String name)
     {
-        return name;
+        this.name= name;
     }
 
-    //set student's average 
-    public void setAverage (double average)
+    // Get Student's name 
+    public void getName ()
+    {
+       return name;
+    }
+
+    // sets student's average 
+    public void setAverage(double studentAverage)
+    {
+        //validate that average is > 0.0 and <= 100.0; otherwise 
+        //keep instance variable average'default value(0.0)
+        if (average > 0.0) 
+            if(average <= 100.0)
+                this.average = average; // assign to instance variable  
+    }
+
+    //etrieve student's average 
+    public void setAverage ()
     {
         return average;
     }
