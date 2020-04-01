@@ -1,4 +1,5 @@
 // Creating JFrame to display DrawPanel
+import javax.swing.JFrame;
 
 public class DrawPanelTest{
     public static void main(String[] args) {

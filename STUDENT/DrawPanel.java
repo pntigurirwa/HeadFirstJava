@@ -15,7 +15,7 @@ public void paintComponent(Graphics g)
     int height = getHeight();// total height
 
     //draw a line from the uppe left to the lower right 
-    g.drawLine(0.0, width, height);
+    g.drawLine(0, 0, width, height);
 
     //draw a line from the lower left to the upper right
     g.drawLine(0, height, width, 0);
