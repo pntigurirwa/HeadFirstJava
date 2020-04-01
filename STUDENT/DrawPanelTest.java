@@ -11,5 +11,7 @@ public class DrawPanelTest{
 
         //Set  the frame to exit when it is closed 
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        application.add(panel); // add the panel to the frame 
+        application.setSize(250,250); //set the size of the frame 
     }
 }
