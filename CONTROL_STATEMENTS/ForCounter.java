@@ -5,7 +5,7 @@ public class ForCounter {
         // for statement header includes initialization,
         //loop continuation consition and increments
 
-        for (int counter = 1; conter <= 10; counter++)
+        for (int counter = 1; counter <= 10; counter++)
         System.out.printf("%d ", counter);
     }
 }
