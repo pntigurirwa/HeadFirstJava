@@ -1,7 +1,7 @@
 //Letter grades class uses the Switch statement to count letter grades 
 
 import java.util.Scanner;
-public class LettterGrades{
+public class LetterGrades{
     public static void main(String[] args) {
         
         int total = 0;// sum of grades 
@@ -61,12 +61,12 @@ public class LettterGrades{
             System.out.printf("Class Average is %.2f%n", average);
             System.out.printf("%n%s%n%s%d%n%s%d%n%s%d%n%s%d%n%s%d%n",
             "Number of Students who received each grade:", 
-            "A", aCount, //display number of A grades
-            "B", bCount, //display number of B grades
-            "C", cCount, //display number of C grades
-            "D", dCount, //display number of D grades
-            "F", fCount, //display number of F grades
-            );
+            "A: ", aCount, //display number of A grades
+            "B: ", bCount, //display number of B grades
+            "C: ", cCount, //display number of C grades
+            "D: ", dCount, //display number of D grades
+            "F: ", fCount); //display number of F grades
+            
         }// end if 
         else// no grades were entered, so output appropriate message
             System.out.println("No grade were entered");
