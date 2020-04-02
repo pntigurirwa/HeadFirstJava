@@ -72,3 +72,7 @@ public class LetterGrades{
             System.out.println("No grade were entered");
     }// end main
 }//end class letterGrade
+
+/*Good programming practice: 
+Although each case and default case in a switch can occur in any order
+place default case last. when the deafault case is listed last, the break for that is not required */
