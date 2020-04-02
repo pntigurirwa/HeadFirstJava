@@ -58,6 +58,17 @@ public class LettterGrades{
 
             //Output summary of results
             System.out.printf("Total of the %d grades entered is %d%n", gradeCounter, total);
-        }
-    }
-}
+            System.out.printf("Class Average is %.2f%n", average);
+            System.out.printf("%n%s%n%s%d%n%s%d%n%s%d%n%s%d%n%s%d%n",
+            "Number of Students who received each grade:", 
+            "A", aCount, //display number of A grades
+            "B", bCount, //display number of B grades
+            "C", cCount, //display number of C grades
+            "D", dCount, //display number of D grades
+            "F", fCount, //display number of F grades
+            );
+        }// end if 
+        else// no grades were entered, so output appropriate message
+            System.out.println("No grade were entered");
+    }// end main
+}//end class letterGrade
