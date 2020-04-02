@@ -1,6 +1,6 @@
 //Summing integers with the for statement
 
-pblic class Sum{
+public class Sum{
     public static void main(String[] args) {
 
         int total = 0;
