@@ -25,5 +25,15 @@ public class AutoPolicy{
         return accountnumber; 
     }
 
-    // 
+    // sets the makeAndModel
+    public void setMakeAndModel(String makeAndModel)
+    {
+        this.makeAndModel = makeAndModel;
+    }
+
+    //returns he make and model
+    public String getMakeAndModel()
+    {
+        return makeAndModel;
+    }
 }
