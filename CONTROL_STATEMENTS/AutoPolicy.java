@@ -36,4 +36,36 @@ public class AutoPolicy{
     {
         return makeAndModel;
     }
-}
+
+    //sets the state
+    public void setState(String state)
+    {
+        this.state =state;
+    }
+
+    //returns the state
+    public String getState()
+    {
+        return state;
+    }
+
+    // predicate method returns whether the state has no fault insurance 
+    public boolean isNoFaultState()
+    {
+        boolean noFaultState;
+
+        // determine whwether state has no fault auto insurance 
+        switch (getState()) // get AutoPolicy object's state abbreviation 
+         {
+            case "MA": case "NJ": case "NY": case "PA": 
+                noFaultState =true; 
+                
+                break;
+        
+            default:
+                noFaultState =false; 
+                break;
+        }
+        return noFaultState; 
+    }
+} // end class AutoPolicy
