@@ -8,7 +8,7 @@ public class AutoPolicy{
     //Constructor 
     public AutoPolicy (int accountNumber, String makeAndModel, String state)
     {
-        this.accountnumber = accountNumber; 
+        this.accountNumber = accountNumber; 
         this.makeAndModel = makeAndModel; 
         this.state = state; 
     }
@@ -16,13 +16,13 @@ public class AutoPolicy{
     //sets the accountNumber 
     public void setAccountNumber(int accountNumber)
     {
-        this.accountNumber = accountnumber;
+        this.accountNumber = accountNumber;
     }
 
     //returns the accountNumber 
     public int getAccountNumber ()
     {
-        return accountnumber; 
+        return accountNumber; 
     }
 
     // sets the makeAndModel
