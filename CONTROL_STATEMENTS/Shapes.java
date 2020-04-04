@@ -21,14 +21,14 @@ public class Shapes extends JPanel
                 //Pick the shape based on the user's choice 
                 switch (choice) {
                     case 1: //draw rectangles
-                        g.drawRect(10 + i * 10, 10 +i * 10, 50 + i * 10, 50 + i * 10);
+                        g.drawRect(10 + i * 10, 10 + i * 10, 50 + i * 10, 50 + i * 10);
                         
                         break;
-                
-                    default:
+                    case 2: //draw ovals
+                        g.drawOval(10 + i * 10, 10 + i * 10, 50 + i * 10, 50 + i * 10);
                         break;
                 }
                 
             }
     }
-}
+}//end class Shapes
