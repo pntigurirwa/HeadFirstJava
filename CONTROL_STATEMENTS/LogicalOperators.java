@@ -22,12 +22,19 @@ public static void main(String[] args) {
     "true & false", (true & false),
     "true & true", (true & true ));
 
-    // Create truth for | (boolean logical OR) oprerator 
+    // Create truth for | (boolean logical inclusive OR) oprerator 
     System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%n", 
-    "Conditional OR (|)", "false & false", (false |false), 
+    "Boolean Logical Inclusive OR (|)", "false | false", (false |false), 
     "false | true", (false | true),
     "true | false", (true | false),
     "true | true", (true | true ));
+
+    // Create truth for ^ (boolean logical exclusive OR) oprerator 
+    System.out.printf("%s%n%s: %b%n%s: %b%n%s: %b%n%s: %b%n%n", 
+    "Boolean Logical exclusive OR (^)", "false ^ false", (false ^ false), 
+    "false ^ true", (false ^ true),
+    "true ^ false", (true ^ false),
+    "true ^ true", (true ^ true ));
 
 
 
