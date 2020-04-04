@@ -11,6 +11,11 @@ public class ShapesTest{
         );
         int choice Integer.parseInt(Input); //convert input to int 
 
-        // cretae the panel with The user'sinput 
+        // cretae the panel with The user's input 
+        Shapes panel = new Shapes(choice);
+
+        JFrame application = new JFrame(); //create a new JFrame 
+
+        apllication 
     }
 }
