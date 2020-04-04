@@ -9,13 +9,16 @@ public class ShapesTest{
         String input = JOptionPane.showInputDialog (
             "Enter 1 to draw a rectangle\n "+"Enter 2 to draw Ovals"
         );
-        int choice Integer.parseInt(Input); //convert input to int 
+        int choice = Integer.parseInt(input); //convert input to int 
 
         // cretae the panel with The user's input 
         Shapes panel = new Shapes(choice);
 
         JFrame application = new JFrame(); //create a new JFrame 
 
-        apllication 
+        application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        application.add(panel);
+        application.setSize(300, 300);
+        application.setVisible(true); 
     }
-}
+} //End Class ShapesTest
