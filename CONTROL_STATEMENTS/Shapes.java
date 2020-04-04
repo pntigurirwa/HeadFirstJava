@@ -16,7 +16,7 @@ public class Shapes extends JPanel
     //draw a cascade of shapes starting from the top left corner 
     public void paintComponent(Graphics g)
     {
-        super.paintComponet(g);
+        super.paintComponent(g);
             for (int i= 0; i<10; i++) {
                 //Pick the shape based on the user's choice 
                 switch (choice) {
