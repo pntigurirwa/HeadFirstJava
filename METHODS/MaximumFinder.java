@@ -11,12 +11,12 @@ public class MaximumFinder
         // prompt for and input three floating point values 
         System.out.print("Enter three floating point values separated by spaces: ");
 
-        double number 1 =input.nextDouble(); // read first double
-        double number 2 =input.nextDouble(); // read second double
-        double number 3 =input.nextDouble(); // read third double
+        double number1 =input.nextDouble(); // read first double
+        double number2 =input.nextDouble(); // read second double
+        double number3 =input.nextDouble(); // read third double
 
         // detrmine the maximum value
-        double result = maximum(number1, number2, number 3);
+        double result = maximum(number1, number2, number3);
 
         System.out.println("maximum is: " + result);
     }
