@@ -14,7 +14,7 @@ public class RandomIntegers
             //pick random integer from 1 to 6 
             int face = 1 + randomNumbers.nextInt(6);
 
-            System.out.print("%d ", face); // display generated value 
+            System.out.printf("%d ", face); // display generated value 
 
             //if counter is divisible by 5, start a new line of output 
             if(counter % 5 == 0)
