@@ -12,7 +12,7 @@ public class RandomIntegers
         for (int counter = 1; counter <= 20; counter ++) {
         
             //pick random integer from 1 to 6 
-            int face = 1 + RandomNumbers.nextInt(6);
+            int face = 1 + randomNumbers.nextInt(6);
 
             System.out.print("%d ", face); // display generated value 
 
