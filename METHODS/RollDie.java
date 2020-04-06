@@ -3,7 +3,8 @@ import java.security.SecureRandom;
 
 public class RollDie
 {
-    // randomNumbers object will produce secure random numbers 
+   public static void main(String[] args) {
+        // randomNumbers object will produce secure random numbers 
     SecureRandom randomNumbers = new SecureRandom();
 
     int frequency1 = 0; //count of 1s rolled
@@ -44,5 +45,6 @@ public class RollDie
         }
     }
     System.out.println("face\tFrequency"); //output headers
-    System.out.println();
+    System.out.printf("1\t%d%n2\t%d%n3\t%d%n4\t%d%n5\t%d%n6\t%d%n", frequency1, frequency2, frequency3, frequency4, frequency5, frequency6);
+   }
 }
