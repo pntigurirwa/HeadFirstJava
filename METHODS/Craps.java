@@ -4,10 +4,10 @@ import java.security.SecureRandom;
 public class Craps
 {
 //Create secure random number for use in method rollDice
-private static final SecureRandom randomNumber = new Securerandom();
+private static final SecureRandom randomNumbers = new SecureRandom();
 
 //Enum type with constants that represent the game ststus
-private enum Status {CONTINUE,WON,LOST};
+private enum Status {CONTINUE, WON, LOST};
 
 //constants that represent common rolls of the dice 
 private static final int SNAKE_EYES =2;
@@ -47,7 +47,7 @@ public static void main(String[] args) {
 
         //determine game status
         if(sumOfDice ==  myPoint ) // win by making point 
-        gameStatus = status.WON;
+        gameStatus = Status.WON;
         else
             if(sumOfDice == SEVEN)// lose by rolling 7 before point 
                 gameStatus = Status.LOST;
