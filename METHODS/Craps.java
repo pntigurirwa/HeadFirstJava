@@ -74,5 +74,8 @@ public static int rollDice()
 }
 }// end class craps
 
-/*TIPS: 
-Use only uppercase letter inn the names of enum constants to make them stand out and remind you that they're not variables */
+/*TIPS#1 : 
+Use only uppercase letter inn the names of enum constants to make them stand out and remind you that they're not variables
+TIPS#1 :
+Using enum constants (like Status.WON, Status.LOST and Status.Continue) rather than using literal values (such as 0, 1 and 2) makes programs easier to read and maintain
+*/
