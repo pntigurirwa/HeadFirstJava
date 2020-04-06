@@ -73,3 +73,6 @@ public static int rollDice()
     return sum;
 }
 }// end class craps
+
+/*TIPS: 
+Use only uppercase letter inn the names of enum constants to make them stand out and remind you that they're not variables */
