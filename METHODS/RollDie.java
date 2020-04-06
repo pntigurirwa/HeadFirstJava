@@ -43,4 +43,6 @@ public class RollDie
                 break;
         }
     }
+    System.out.println("face\tFrequency"); //output headers
+    System.out.println();
 }
