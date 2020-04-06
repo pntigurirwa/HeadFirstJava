@@ -52,5 +52,10 @@ public static void main(String[] args) {
             if(sumOfDice == SEVEN)// lose by rolling 7 before point 
                 gameStatus = Status.LOST
     }
+    // display won or lost message 
+    if(gameStatus == Status.WON)
+        System.out.println("player Wins");
+    else 
+        System.out.println("Player Loses");
 }
 }
