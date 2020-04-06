@@ -58,4 +58,11 @@ public static void main(String[] args) {
     else 
         System.out.println("Player Loses");
 }
+//roll dice , calculate sum and display results
+public static int rollDice()
+{
+    //pick random die values
+    int die1 = 1+ randomNumbers.nextInt(6); // first die roll
+    int die2 = 1+ randomNumbers.nextInt(6); // first die roll
+}
 }
