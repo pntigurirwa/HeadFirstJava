@@ -14,7 +14,7 @@ private static final int SNAKE_EYES =2;
 private static final int TREY = 3;
 private static final int  SEVEN =7; 
 private static final int YO_LEVEN = 11;
-private ststic final int BOX_CARS = 12;
+private static final int BOX_CARS = 12;
 
 //plays one game of craps
 public static void main(String[] args) {
@@ -50,7 +50,7 @@ public static void main(String[] args) {
         gameStatus = status.WON;
         else
             if(sumOfDice == SEVEN)// lose by rolling 7 before point 
-                gameStatus = Status.LOST
+                gameStatus = Status.LOST;
     }
     // display won or lost message 
     if(gameStatus == Status.WON)
