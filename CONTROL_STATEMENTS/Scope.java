@@ -18,5 +18,19 @@ public class Scope
 
         System.out.printf("nlocal x in main is %d%n", x);
     }
-    //create and initialize local variable x during 
+    //create and initialize local variable x during each call 
+    public static void uselocalVariable()
+    {
+        int x = 25; // initialized each time useLocalVariable is called
+
+        System.out.printf("%nlocal x on entering method useLocalVariable is %d%n", x);
+        ++x;  //modifies this methods's local variable x
+        System.out.printf("local x before exiting method useLocalVariable is %d%n", x);
+    }
+
+    // Modify class Scope's field x during each call
+    public static useField()
+    {
+        System.out.printf("%nfield x on entering method useField is %d%n", );
+    }
 }
